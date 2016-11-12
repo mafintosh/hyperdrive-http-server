@@ -13,8 +13,8 @@ npm install -g hyperdrive-http-server
 hyperdrive-http-server 4333067ee4ff8e659d6d12f21b043e66c5f27b9b8b7c3b2ab1d3d8ef7a0947df
 ```
 
-After running the above visit, http://localhost:10000/image.gif in your browser.
-It will also run a stats interface on http://localhost:10001
+After running the above visit, [http://localhost:10000/image.gif](http://localhost:10000/image.gif) in your browser.
+It will also run a stats interface on [http://localhost:10001](http://localhost:10001)
 
 ## License
 
