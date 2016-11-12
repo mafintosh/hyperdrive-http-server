@@ -47,6 +47,10 @@ var archive = hyperdrive(level(path.join(p, 'db'))).createArchive(key, {
   }
 })
 
+archive.metadata.prioritize({
+  priority: 5
+})
+
 var route = serve(archive)
 
 var statsServer = http.createServer(stats(archive))
