@@ -32,7 +32,7 @@ if (!argv._[0] || /![0-9a-f]{64}/.test(argv._[0].toLowerCase())) {
   console.error('  --sparse     use sparse mode')
   console.error('  --open       use server index.html in browser')
   console.error()
-  process.exit(1)
+  process.exit(argv.help ? 0 : 1)
 }
 
 var key = argv._[0]
