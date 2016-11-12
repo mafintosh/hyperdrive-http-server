@@ -1,6 +1,6 @@
 {
   "name": "hyperdrive-http-server",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Command line tool to serve hyperdrives over http",
   "main": "index.js",
   "dependencies": {
