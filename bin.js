@@ -41,10 +41,10 @@ var p = argv.path || path.join(TMP, 'hyperdrive', key)
 mkdirp.sync(p)
 
 var archive = hyperdrive(level(path.join(p, 'db'))).createArchive(key, {
-  sparse: argv.sparse,
-  file: function (name) {
-    return raf(path.join(p, name))
-  }
+  sparse: argv.sparse
+  // file: function (name) {
+  //   return raf(path.join(p, name))
+  // }
 })
 
 archive.metadata.prioritize({
